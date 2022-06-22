@@ -1,0 +1,49 @@
+.expenseform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+.form {
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: fit-content;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.formControl{
+  display: flex;
+  flex-direction: column;
+  margin:0.75rem 0;
+}
+.formControl label{
+    padding: 0.25rem 0;
+    font-weight: 500;
+}
+.formControl input, .formControl select{
+    padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    border: 2px solid rgba(11, 11, 142, 0.71);
+}
+.formControl input:focus , .formControl select:focus{
+    outline: none;
+}
+.error label {
+    color:#e74c3c;
+}
+.error input {
+    border-color: #e74c3c;
+}
+.btn{
+    width: 100%;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    padding: 0.45rem 0;
+    border: 0;
+    background-color: rgba(11, 11, 142, 0.71);
+    color: #fff;
+    border-radius: 0.25rem;
+    font-style: italic;
+}

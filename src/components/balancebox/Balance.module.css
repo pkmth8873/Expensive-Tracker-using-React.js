@@ -1,0 +1,25 @@
+.balanceBox {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+}
+.income,
+.savings,
+.expense {
+  padding: 0.55rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: #fff;
+  font-weight: 900;
+  width: max-content;
+  word-wrap: break-word;
+}
+.income {
+    background-color: #03d47c;
+}
+.savings {
+    background-color: yellowgreen;
+}
+.expense {
+    background-color:rgb(234 67 53);
+}

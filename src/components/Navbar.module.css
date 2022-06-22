@@ -1,0 +1,11 @@
+.header{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 900;
+    background-color: rgba(11, 11, 142, 0.71);
+    color: white;
+    padding: 1rem 0;
+    font-style: italic;
+}
